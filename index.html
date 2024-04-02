@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame{
+            width: 300px;
+            height: 300px;
+            border: 10px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        .photo-frame .photo img{
+            width: 100%;
+            
+        }
+        .photo-detail{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            top: 0;
+            display: none;
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            color:white;
+        }
+        .photo-frame:hover .photo-detail h3{
+            color: rgb(255, 0, 0);
+            text-align: center;
+        }
+        .photo-frame:hover .photo img{
+            transform: scale(1.2);
+            transition: transform 2s;
+
+        }
+    </style>
+</head>
+<body>
+  <h1>  My Dear Laxmi devi</h1>
+  <section class="photo-album">
+    <div class="photo-frame">
+        <div class="photo">
+            <img src="images/swarna.png" alt=""></div>
+            <div class="photo-detail">
+                <br>
+                <br>
+                <h3>I Love You Bou❤️</h3>
+                <p>Holy loves never leaves a thousand dreams dear bou. Our love is truly pure. No strom can never create distance between us. No matter how bad time comes, we'll solve it together in life, I'll not tarnish the sacred love by rinning from fear.Please bou give me your laxmi family🙏👨‍👨‍👧‍👧</p>
+            </div>
+    </div>
+    
+
+  </section>
+</body>
+</html>
